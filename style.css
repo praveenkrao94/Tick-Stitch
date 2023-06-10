@@ -104,6 +104,7 @@ nav {
   color: #ffffff;
   font-size: 20px;
   padding-right: 70px;
+  letter-spacing: 5px;
 }
 
 /* .button {
@@ -130,4 +131,18 @@ nav {
   border-radius: 4px;
   background-color: #000;
   color: white;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.tick {
+  background-color: #343436;
+  background-size: cover;
+  height: 700px;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.stitch {
+  background-color: #191919;
+  background-size: cover;
+  height: 700px;
 }
