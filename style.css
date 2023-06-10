@@ -14,8 +14,32 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.9;
-  height: 100vh;
+  height: 600px;
+  position: relative;
 }
+.headerContent {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.headerContent1 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
 nav {
   background: transparent;
   padding: 20px;
