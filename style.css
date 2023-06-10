@@ -152,9 +152,9 @@ nav {
   height: 600px;
   position: absolute;
   width: 100%;
-  bottom: 400px;
+  bottom: 200px;
   opacity: 0;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 .tick:hover .tickbackground {
   bottom: 10px;
@@ -177,4 +177,35 @@ nav {
   background-color: #191919;
   background-size: cover;
   height: 700px;
+  position: relative;
+}
+
+.stitchbackground {
+  background: url("assets/stitch-background.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  bottom: 200px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.stitch:hover .stitchbackground {
+  bottom: 10px;
+  opacity: 1;
+}
+
+.stitchheader {
+  color: #ffffff;
+  text-align: center;
+  font-size: 70px;
+  position: relative;
+  bottom: -30px;
+  right: 33px;
+  letter-spacing: 25px;
+  opacity: 1;
 }
