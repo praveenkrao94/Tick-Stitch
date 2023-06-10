@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  background-image: url("assets/tickstitch-low-resolution-logo-color-on-transparent-background.png");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  height: 20px;
+  padding: 25px;
+}
