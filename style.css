@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  background: url("assets/pexels-donald-tong-23474.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  height: 100vh;
+}
 nav {
   background: transparent;
   padding: 20px;
@@ -14,7 +26,7 @@ nav {
 .logo {
   width: 70px;
   height: 70px;
-  background-image: url("assets/tickstitch-low-resolution-logo-color-on-transparent-background.png");
+  background-image: url("assets/tickstitch-high-resolution-logo-white-on-transparent-background.png");
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -38,9 +50,9 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: #000;
+  color: #ffffff;
   font-size: 20px;
-  padding-right: 40px;
+  padding-right: 70px;
 }
 
 /* .button {
@@ -58,7 +70,8 @@ nav {
   background-color: transparent;
   border: 1px solid rgb(220, 220, 220);
   outline: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
 }
 
 .button:hover {
